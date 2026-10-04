@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Auriculares Bluetooth Pro",
+    "precio": 48500,
+    "categoria": "Audio",
+    "stock": 25,
+    "descripcion": "Auriculares inalámbricos con cancelación de ruido, 30 horas de batería y micrófono integrado.",
+    "imagen": "https://i.ibb.co/WWpTYJmH/auricular3.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Gamer RGB",
+    "precio": 22900,
+    "categoria": "Periféricos",
+    "stock": 40,
+    "descripcion": "Mouse óptico de 7200 DPI con iluminación RGB y 6 botones programables.",
+    "imagen": "https://i.ibb.co/jvyjyvWQ/mouse-gamer.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico TKL",
+    "precio": 67800,
+    "categoria": "Periféricos",
+    "stock": 18,
+    "descripcion": "Teclado mecánico compacto con switches rojos, retroiluminado y cable desmontable.",
+    "imagen": "https://i.ibb.co/0R9kCXgq/Teclado-Mecanico.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Cargador USB-C 65W",
+    "precio": 31200,
+    "categoria": "Cargadores",
+    "stock": 60,
+    "descripcion": "Cargador rápido GaN de 65W compatible con notebooks, tablets y celulares.",
+    "imagen": "https://i.ibb.co/TBgKLrSd/Cargador-65-W.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Smartwatch Fit S2",
+    "precio": 89900,
+    "categoria": "Wearables",
+    "stock": 12,
+    "descripcion": "Reloj inteligente con monitor cardíaco, GPS y resistencia al agua 5 ATM.",
+    "imagen": "https://i.ibb.co/67K4gmhs/Reloj-Inteligente.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Parlante Bluetooth Resistente",
+    "precio": 39900,
+    "categoria": "Audio",
+    "stock": 30,
+    "descripcion": "Parlante portátil IPX7 con 12 horas de autonomía y sonido estéreo.",
+    "imagen": "https://i.ibb.co/TBjL4bMj/parlante-xp7.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Webcam Full HD 1080p",
+    "precio": 27500,
+    "categoria": "Periféricos",
+    "stock": 22,
+    "descripcion": "Webcam con micrófono doble y enfoque automático, ideal para clases y reuniones.",
+    "imagen": "https://i.ibb.co/hx8P0X0C/Camara-Web.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Power Bank 20000 mAh",
+    "precio": 35400,
+    "categoria": "Cargadores",
+    "stock": 35,
+    "descripcion": "Batería externa de alta capacidad con carga rápida y dos salidas USB.",
+    "imagen": "https://i.ibb.co/6JJMHdcP/Power-Ban-K.webp"
+  }
+]
