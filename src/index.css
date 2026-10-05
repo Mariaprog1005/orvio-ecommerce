@@ -136,10 +136,15 @@ hr {
 }
 
 .header-brandLogo {
-  font-family: var(--font-serif);
-  font-size: 1.75rem;
-  letter-spacing: -0.02em;
-  color: var(--clr-text);
+  display: flex;
+  align-items: center;
+}
+
+.header-brandLogo img {
+  height: 35px; /* Podés ajustar este valor si lo querés más grande o chico */
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0); /* Esto pasa las letras blancas a color negro */
 }
 
 .header-centerSection {
