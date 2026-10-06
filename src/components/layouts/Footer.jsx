@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+// 1. Importás tus imágenes desde la carpeta assets
+import fotoMaria from '../../assets/MariaLopez.jpg';
+import fotoRosana from '../../assets/RosanaScorso.jpg';
+import fotoLorena from '../../assets/lorenaPaz.jpg';
+
 const empresa = {
   nombre: 'Orvio',
   descripcion: 'Tecnología de calidad con atención personalizada por WhatsApp.',
@@ -10,9 +15,24 @@ const empresa = {
 };
 
 const equipo = [
-  { id: 1, nombre: 'Maria Lopez', rol: 'Desarrolladora front-end', iniciales: 'ML' },
-  { id: 2, nombre: 'Rosana Scorzo', rol: 'Dueña de la tienda', iniciales: 'RS' },
-  { id: 3, nombre: 'Lorena Paz', rol: 'Atención al cliente', iniciales: 'MP' },
+  { 
+    id: 1, 
+    nombre: 'Maria Lopez', 
+    rol: 'Desarrolladora front-end', 
+    imagen: fotoMaria // Usamos la variable importada
+  },
+  { 
+    id: 2, 
+    nombre: 'Rosana Scorzo', 
+    rol: 'Dueña de la tienda', 
+    imagen: fotoRosana // Usamos la variable importada
+  },
+  { 
+    id: 3, 
+    nombre: 'Lorena Paz', 
+    rol: 'Atención al cliente', 
+    imagen: fotoLorena // Usamos la variable importada
+  },
 ];
 
 const Footer = () => {
@@ -59,7 +79,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="tu@email.com"
-                value={email}
+                valueemail={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="footer-input"
                 required
@@ -75,7 +95,10 @@ const Footer = () => {
         <div className="footer-tarjetas">
           {equipo.map((persona) => (
             <article key={persona.id} className="tarjeta-tarjeta">
-              <div className="tarjeta-avatar">{persona.iniciales}</div>
+              {/* 2. Reemplazamos las letras por la etiqueta <img> usando la propiedad imagen */}
+              <div className="tarjeta-avatar">
+                <img src={persona.imagen} alt={persona.nombre} className="tarjeta-img" />
+              </div>
               <div>
                 <h3 className="tarjeta-nombre">{persona.nombre}</h3>
                 <p className="tarjeta-rol">{persona.rol}</p>
